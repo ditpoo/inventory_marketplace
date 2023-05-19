@@ -1,6 +1,6 @@
 This is a node backend service using express, inversify & sequelize
 
-I failed to containerize it due to some issue with localstack but it is working locally 
+I failed to containerize it due to some issue with localstack but it is working locally you can check the docker and docker compose files to check the progress
 
 You need the following to run the app
 
@@ -16,7 +16,7 @@ Run the following:
 
     - npm run build
     - npm run locally synth
-    - npm run locally bootstarp
+    - npm run locally bootstrap
     - npm run locally deploy
 
 The above command will deploy the lambda, sqs, sns on the localstack using cdk, cdk-local

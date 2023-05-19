@@ -1,0 +1,14 @@
+.DS_Store
+.editorconfig
+.eslint*
+.idea/
+.vscode/
+scripts
+coverage/
+test/
+docs
+dump.rdb
+node_modules/
+nodemon.json
+npm-debug.log
+scripts/*.json
