@@ -14,10 +14,11 @@ Run the following:
 
     - docker-compose up localstack
 
+    - npm i
     - npm run build
-    - npm run locally synth
-    - npm run locally bootstrap
-    - npm run locally deploy
+    - npm run local synth
+    - npm run local bootstrap
+    - npm run local deploy
 
 The above command will deploy the lambda, sqs, sns on the localstack using cdk, cdk-local
 
